@@ -18,8 +18,8 @@ export default function Nav_bar(){
                 <Nav className="me-auto">
                   {/* <Nav.Link href="#Login">Login</Nav.Link> */}
                   <Nav.Link href="#register">Register</Nav.Link>
-                  <Nav.Link href="#deposit">Deposit</Nav.Link>,
-                  <Nav.Link href="#cashback">Cash Back</Nav.Link>,
+                  <Nav.Link href="#deposit">Deposit</Nav.Link>
+                  <Nav.Link href="#cashback">Cash Back</Nav.Link>
                   <Nav.Link href="#alldata">All Data</Nav.Link>
 
                   {/* {user.AllData}
