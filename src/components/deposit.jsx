@@ -41,12 +41,12 @@ export default function Deposit() {
         <>
             <div id='Trans'>
                 <h1>Deposit</h1>
+                <h2>Balance : {bal} </h2>
                 <form onSubmit={handleSubmit}>
                     <label htmlFor="">Amount :</label><br />
                     <input type="number" onChange={(e) => setDep(e.target.value)} placeholder='RS: Amount' /> <br /><br />
                     <button type="submit">Submit</button>
                 </form>
-                <h2>Balance : {bal} </h2>
             </div>
         </>
     );

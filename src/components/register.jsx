@@ -1,4 +1,4 @@
-import Logo from '../img/Royal bank logo.png'
+import Logo from '../img/Royal.png'
 import axios from 'axios';
 import { useState } from "react"
 import { Button } from "react-bootstrap"
@@ -22,11 +22,11 @@ export default function Register(){
     <h1>Register</h1>
     <label htmlFor="">Name : </label><br />
     <input type="text" placeholder='Name' onChange={(e)=>setName(e.target.value)}/><br /><br />
-    <label htmlFor="">Name : </label><br />
+    <label htmlFor="">Gmail : </label><br />
     <input type="text" placeholder='Gmail' onChange={(e)=>setGmail(e.target.value)} /><br /><br />
-    <label htmlFor="">Name : </label><br /> 
+    <label htmlFor="">Password : </label><br /> 
     <input type="password" placeholder='Password' onChange={(e)=>setPass(e.target.value)}/><br /><br />
-    <label htmlFor="">Name : </label><br />
+    <label htmlFor="">Amount : </label><br />
     <input type="number" placeholder='Amount' onChange={(e)=>setAmount(e.target.value)}/><br /><br /><br />
     <Button type="submit">submit</Button>
     </form>

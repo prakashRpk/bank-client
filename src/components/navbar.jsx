@@ -12,11 +12,10 @@ export default function Nav_bar(){
         <Navbar expand="lg" className="bg-body-tertiary" id='nav'>
             <h1>Royal Bank</h1>
             <Container>
-              <Navbar.Brand href="#home">Home</Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="me-auto">
-                  {/* <Nav.Link href="#Login">Login</Nav.Link> */}
+                  <Nav.Link href="#home">Home</Nav.Link>
                   <Nav.Link href="#register">Register</Nav.Link>
                   <Nav.Link href="#deposit">Deposit</Nav.Link>
                   <Nav.Link href="#cashback">Cash Back</Nav.Link>
